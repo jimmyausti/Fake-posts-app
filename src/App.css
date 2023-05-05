@@ -40,3 +40,31 @@
 .read-the-docs {
   color: #888;
 }
+
+
+.paginationBtns {
+  width: 80%;
+  height: 40px;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+
+.paginationBtns a {
+  padding: 10px;
+  margin: 8px;
+  border-radius: 5px;
+  border: 1px solid #2b23ff;
+  color: #2b23ff;
+  cursor: pointer;
+}
+
+.paginationBtns a:hover {
+  color: white;
+  background-color: #2b23ff;
+}
+
+.paginationActive a {
+  color: green;
+  border: 1px solid green;
+}
